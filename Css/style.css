@@ -1,21 +1,27 @@
 *{margin:0; padding:0;}
 
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .total-header {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
 }
 
 .header-name {
-    float: left;
+    width: 80%;
 }
 
-.menu-selection {
-    float: right;
-
-}
-
-.list-selection li {
+.list-selection {
+    display: flex;
+    width: 20%;
     list-style-type: none;
+    font-size: 26px;
 }
 
 .list-selection li a {
