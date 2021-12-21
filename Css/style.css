@@ -1,0 +1,24 @@
+*{margin:0; padding:0;}
+
+.total-header {
+    width: 100%;
+    background-color: bisque;
+}
+
+.header-name {
+    float: left;
+}
+
+.menu-selection {
+    float: right;
+
+}
+
+.list-selection li {
+    list-style-type: none;
+}
+
+.list-selection li a {
+    text-decoration: none;
+    color: black;
+}
