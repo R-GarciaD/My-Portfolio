@@ -7,16 +7,18 @@ body {
 .total-header {
     font-family: 'Roboto Mono', monospace;
     width: 90%;
-    margin: auto;
-    background-color: bisque;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: sticky;
 }
 
 .header-name {
     width: 80%;
-    font-size: 20px;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 .list-selection {
@@ -48,3 +50,31 @@ body {
         text-align: center;
     }
 }
+
+
+.title-container {
+    padding: 70px 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.about-section {
+    width:50%;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.image-section {
+    width: 50%;   
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
