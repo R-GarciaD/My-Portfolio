@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+/********** Header **********/
 .total-header {
     font-family: 'Roboto Mono', monospace;
     width: 90%;
@@ -50,8 +51,9 @@ body {
         text-align: center;
     }
 }
+/****************************/
 
-
+/********** About **********/
 .title-container {
     padding: 70px 20px;
     width: 50%;
@@ -76,5 +78,15 @@ body {
     text-align: right;
     margin-top: auto;
     margin-bottom: auto;
+    padding-right: 20px;
+
 }
 
+@media screen and (max-width: 950px) {
+    .about-container, .about-section, .image-section{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/****************************/
