@@ -5,16 +5,18 @@ body {
 }
 
 .total-header {
+    font-family: 'Roboto Mono', monospace;
     width: 90%;
     margin: auto;
     background-color: bisque;
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    align-items: center;
 }
 
 .header-name {
     width: 80%;
+    font-size: 20px;
 }
 
 .list-selection {
@@ -24,7 +26,17 @@ body {
     font-size: 26px;
 }
 
+.list-selection li {
+    padding: 10px 20px;
+}
+
 .list-selection li a {
     text-decoration: none;
     color: black;
+}
+
+.list-selection li a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #f14f04;
 }
